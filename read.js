@@ -1,16 +1,3 @@
-// Data converter for Vizabi mountain chart
-//
-// install csvtojson: > npm install -g csvtojson
-// add csvtojson to the project > npm install csvtojson
-//
-// requires country to regions mapping table
-// requires country to country codes mapping table
-// requires dataset to work with
-//
-// launch using nodejs: > node read.js
-//
-// Angie for Gapminder (2014)
-
 var Converter=require("csvtojson").core.Converter;
 var fs=require("fs");
 var INIT = "init",

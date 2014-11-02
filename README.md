@@ -14,7 +14,7 @@ npm install csvtojson
 ####Input
 * Country to regions mapping table. Any number of alternatives. Format example: 
 ```sh 
-country name, country name alt2, country name alt N, region code
+country name, country name alt2 ... country name alt N, region code
 Afghanistan, Afgans land ... Beautiful country, asi
 ```
 * Country to country codes mapping table. Any number of alternatives. Format example: 

@@ -12,26 +12,56 @@ npm install csvtojson
 ```
 
 ####Input
-*Country to regions mapping table  
-Format example: 
+* Country to regions mapping table. Any number of alternatives. Format example: 
 ```sh 
-[country name, country name alt2, country name alt N, region code]
+country name, country name alt2, country name alt N, region code
+Afghanistan, Afgans land ... Beautiful country, asi
 ```
-*Country to country codes mapping table. Format example: 
+* Country to country codes mapping table. Any number of alternatives. Format example: 
 ```sh 
-[country name, country name alt2, country name alt N, country code]
+country name, country name alt2 ... country name alt N, country code
+Afghanistan, Afgans land ... Beautiful country, afg
 ```
-*Dataset to work with. Format example: 
+* Dataset to work with. Format example: 
 ```sh 
-[name,year,mean,variance,population]
+name,year,mean,variance,population
+Afghanistan,1970,7.211355,0.4842485,12430.62
+...
 ```
 
 ####Use
-launch using nodejs:  
+Launch using nodejs:  
 ```sh 
 node read.js
 ```
-the output is in *.json file
+The output is in *.json file. Output example:
+```sh 
+[
+    [{
+        "time": 1970,
+        "pop": 12430.62,
+        "mean": 7.211355,
+        "variance": 0.4842485,
+        "geo": "afg",
+        "geo.name": "Afghanistan",
+        "geo.category": ["country"],
+        "geo.region": "asi"
+    }, {
+        "time": 1971,
+        "pop": 12749.38,
+        "mean": 7.224139,
+        "variance": 0.4769112,
+        "geo": "afg",
+        "geo.name": "Afghanistan",
+        "geo.category": ["country"],
+        "geo.region": "asi"
+    },
+    
+    ...
+    
+    ]
+]
+```
 
 ####;-)
 Angie for Gapminder (2014)

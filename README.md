@@ -2,7 +2,7 @@
 
 ####CSV-to-JSON data converter for Vizabi
 This script takes CSV and transforms it to Vizabi-readable JSON.  
-For each country the mapping to country code and region code needs to be resolved.
+It also resolves countryCode and regionCode for every country. 
 
 ####Environment
 Requires [Node](http://nodejs.org/) and [csvtojson](https://www.npmjs.org/package/csvtojson)  

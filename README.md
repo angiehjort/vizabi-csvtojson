@@ -1,7 +1,7 @@
 ![Gapminder Vizabi 0.4](http://static.gapminder.org/vizabi/vizabi.jpg)
 
-####CSV-to-JSON Data converter for Vizabi
-this script takes CSV and transforms it to Vizabi-readable JSON
+####CSV-to-JSON data converter for Vizabi
+This script takes CSV and transforms it to Vizabi-readable JSON.  
 For each country the mapping to country code and region code needs to be resolved.
 
 ####Environment

@@ -5,20 +5,32 @@ this script takes CSV and transforms it to Vizabi-readable JSON
 For each country the mapping to country code and region code needs to be resolved.
 
 ####Environment
-requires Node and csvtojson
-install csvtojson: > npm install -g csvtojson
-add csvtojson to the project > npm install csvtojson
+Requires [Node](http://nodejs.org/) and [csvtojson](https://www.npmjs.org/package/csvtojson)  
+Add csvtojson to the project  
+```sh 
+npm install csvtojson
+```
 
 ####Input
 *Country to regions mapping table  
-Format example: [country name, country name alt2, country name alt N, region code]
-*Country to country codes mapping table  
-Format example: [country name, country name alt2, country name alt N, country code]
-*Dataset to work with.  
-Format example: [name,year,mean,variance,population]
+Format example: 
+```sh 
+[country name, country name alt2, country name alt N, region code]
+```
+*Country to country codes mapping table. Format example: 
+```sh 
+[country name, country name alt2, country name alt N, country code]
+```
+*Dataset to work with. Format example: 
+```sh 
+[name,year,mean,variance,population]
+```
 
 ####Use
-launch using nodejs: > node read.js
+launch using nodejs:  
+```sh 
+node read.js
+```
 the output is in *.json file
 
 ####;-)

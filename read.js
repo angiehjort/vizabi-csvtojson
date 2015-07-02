@@ -17,7 +17,7 @@ function hey(what, arg){
     console.log("HEY: " + what);
     switch(what){
     case INIT: 
-            readCSV("dataset.csv", "data", DONE_READ_DATA); break;
+            readCSV("dataset1.csv", "data", DONE_READ_DATA); break;
     case DONE_READ_DATA: 
             readCSV("country_synonyms.csv", "countryMapping", DONE_READ_COUNTRYMAPPING); break;
     case DONE_READ_COUNTRYMAPPING: 
@@ -52,16 +52,18 @@ function readCSV(filename, exportName, next){
 function writeResult(filename, exportName, next){
     model[exportName] = model.data.map(function(d){
         return {
-            "time": d.year,
-            "pop": d.population,
-            "mean": d.mean,
-            "variance": d.variance,
             "geo": mapper(d.name, "ISO3dig_ext", "countryMapping").toLowerCase(),
             "geo.name": d.name,
             "geo.category": [
                 "country"
             ],
             "geo.region": mapper(d.name, "gapminder region", "regionMapping").toLowerCase(),
+            "time": d.year,
+            //"gini": d.gini,
+            "pop": d.pop,
+            //"gdp_per_cap": d.gdp_per_cap,
+            "mean": d.mean,
+            "variance": Math.round((d.stddev*d.stddev)*100000)/100000
         };
     });
     fs.writeFile(filename, JSON.stringify([model[exportName]]), function(err){
@@ -77,6 +79,7 @@ function writeResult(filename, exportName, next){
 // --------------------------------
 function mapper(from, targetProperty, mappingTable) {
     var to = NOT_FOUND;
+
     model[mappingTable].forEach(function(d){
         for(property in d){ if(d[property]==from) to=d[targetProperty]; }
     });

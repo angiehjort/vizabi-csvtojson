@@ -1,7 +1,5 @@
-Use Name,Gapminder list,Alternative 1,Alternative 2,Alternative 3,"Alternative 4 (CDIAC)
-",pandg,GOD_ID,ISO3dig_ext,ALT 5,NAME,CODE,Number,Gwid,arb1,arb2,arb3,arb4,arb5,arb6
-Abkhazia,Abkhazia,,,,"
-",,GE-AB,_ABK,,,,,i0,,,,,,
+Use Name,Gapminder list,Alternative 1,Alternative 2,Alternative 3,"Alternative 4 (CDIAC)",pandg,GOD_ID,ISO3dig_ext,ALT 5,NAME,CODE,Number,Gwid,arb1,arb2,arb3,arb4,arb5,arb6
+Abkhazia,Abkhazia,,,,"",,GE-AB,_ABK,,,,,i0,,,,,,
 Afghanistan,Afghanistan,Islamic Republic of Afghanistan,,,Afghanistan,AFGHANISTAN,AF,AFG,,AFGHANISTAN,AFG,4,i1,,,,,,
 Akrotiri and Dhekelia,Akrotiri and Dhekelia,,,,,,Akrotiri_Dhekelia,_AKR,,,,,i2,,,,,,
 Albania,Albania,,,,Albania,ALBANIA,AL,ALB,,ALBANIA,ALB,8,i3,,,,,,
@@ -50,8 +48,7 @@ Christmas Island,Christmas Island,,,,Christmas Island,,CX,CXR,,CHRISTMAS ISLAND,
 Cocos Island,Cocos Island,,,,,,CC,CCK,,COCOS (KEELING) ISLANDS,CCK,166,i46,,,,,,
 Colombia,Colombia,,,,Colombia,COLOMBIA,CO,COL,,COLOMBIA,COL,170,i47,,,,,,
 Comoros,Comoros,Comores,,,Comoros,,KM,COM,,COMOROS,COM,174,i48,,,,,,
-"Congo, Dem. Rep.",Congo_Democratic_Republic,Congo (Democratic Republic of the),Congo Dem Rep,Democratic Republic of Congo,Democratic Republic Of The Congo (Formerly Zaire),"CONGO, DEM REP",CD,COD,"Democratic Republic Of The Congo
-","CONGO, Democratic Republic of (was Zaire)",COD,180,i49,Congo DR,"Congo, Democratic Republic of",Congo [DRC],Congo - Kinshasa,Congo [DRC],Dem. Rep. Congo
+"Congo, Dem. Rep.",Congo_Democratic_Republic,Congo (Democratic Republic of the),Congo Dem Rep,Democratic Republic of Congo,Democratic Republic Of The Congo (Formerly Zaire),"CONGO, DEM REP",CD,COD,"Democratic Republic Of The Congo","CONGO, Democratic Republic of (was Zaire)",COD,180,i49,Congo DR,"Congo, Democratic Republic of",Congo [DRC],Congo - Kinshasa,Congo [DRC],Dem. Rep. Congo
 "Congo, Rep.","Congo, Rep.",Congo (Republic of),Congo Brazzaville,Republic of Congo,Congo,"CONGO, REPUBLIC OF THE",CG,COG,Congo - Brazzaville,"CONGO, Republic of",COG,178,i50,Cong,Congo_Brazzaville,,,,
 Cook Is,Cook Islands,Cook Is,,,Cook Islands,,CK,COK,,COOK ISLANDS,COK,184,i51,,,,,,
 Costa Rica,Costa Rica,,,,Costa Rica,COSTA RICA,CR,CRI,,COSTA RICA,CRI,188,i52,,,,,,
@@ -120,8 +117,7 @@ Kenya,Kenya,,,,Kenya,KENYA,KE,KEN,,KENYA,KEN,404,i114,,,,,,
 Kiribati,Kiribati,,,,Kiribati,,KI,KIR,,KIRIBATI,KIR,296,i115,,,,,,
 North Korea,"Korea, Dem. Rep.",Dem. People's Rep. of Korea,"Korea, North","Korea, Democratic Republic of",Democratic People S Republic Of Korea,,KP,PRK,Democratic People's Republic of Korea,"KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",PRK,408,i116,Korea DPR,Dem. People's Republic of Korea,Korea (Democratic People's Rep. of),Korea North,,
 South Korea,"Korea, Rep.","Korea, Rep. of",Korea (Rep. of),"Korea, South",Republic Of Korea,SOUTH KOREA,KR,KOR,Korea (Republic of),"KOREA, REPUBLIC OF",KOR,410,i117,Korea Rep,Korea,,Korea South,,
-"United Korea (former)
-","Korea, United",United Korea,United Korea (former),,,,United_Korea,_KOU,,,,,,,,,,,
+"United Korea (former)","Korea, United",United Korea,United Korea (former),,,,United_Korea,_KOU,,,,,,,,,,,
 Kosovo,Kosovo,,,,,,Kosovo,_UNK,,,,,i118,,,,,,
 Kuwait,Kuwait,,,,Kuwait,KUWAIT,KW,KWT,,KUWAIT,KWT,414,i119,,,,,,
 Kyrgyz Republic,Kyrgyzstan,Kyrgyz Republic,Kyrgyz,,Kyrgyzstan,KYRGYZSTAN,KG,KGZ,,KYRGYZSTAN,KGZ,417,i120,Kyrgyz_Republic,,,,,
